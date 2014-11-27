@@ -6,6 +6,10 @@
  * @author huyi
  */
 class Eos_Exception extends Exception {
+    
+    const CODE_REQUIRED_PARAMETER_NOT_FOUND = 201;
+    const CODE_USER_NOT_FOUND = 203;
+    
     /**
      * @override
      * @param int   $code           异常代码
