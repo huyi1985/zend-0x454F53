@@ -24,4 +24,10 @@ try {
 } catch (Exception $e) {
     echo $e->getMessage(), PHP_EOL;
 }
+
+// 0: (3, 4]
+// 1: [4, 5]
+// 2: [4, 5]
+// 3: [5, 6)
+// 4.86 in [4, 5]
 ```
